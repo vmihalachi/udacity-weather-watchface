@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hour_text_size">40dp</dimen>
+    <dimen name="date_text_size">16dp</dimen>
+    <dimen name="line_height">32dp</dimen>
+    <dimen name="temp_text_size">22dp</dimen>
+    <dimen name="colon_text_size">18dp</dimen>
+    <dimen name="weather_icon_width">34dp</dimen>
+    <dimen name="weather_icon_height">34dp</dimen>
+    <dimen name="weather_icon_padding">8dp</dimen>
+    <dimen name="line_separator_half_width">20dp</dimen>
+    <dimen name="line_separator_padding">16dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="date_color">#bbe5fb</color>
+    <color name="hour_color">#fff</color>
+    <color name="minute_color">#fff</color>
+    <color name="colon_color">#fff</color>
+    <color name="max_temp_color">#fff</color>
+    <color name="min_temp_color">#bbe5fb</color>
+    <color name="line_separator_color">#bbe5fb</color>
+    <color name="interactive_background_color">#1ca8f4</color>
+</resources>
