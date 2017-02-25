@@ -138,7 +138,7 @@ public class SunshineSyncTask {
         dataMap.getDataMap().putInt(KEY_MAX_TEMPERATURE, cv.getAsInteger(WeatherContract.WeatherEntry.COLUMN_MAX_TEMP));
         dataMap.getDataMap().putInt(KEY_MIN_TEMPERATURE, cv.getAsInteger(WeatherContract.WeatherEntry.COLUMN_MIN_TEMP));
         dataMap.getDataMap().putInt(KEY_WEATHER_ID, cv.getAsInteger(WeatherContract.WeatherEntry.COLUMN_WEATHER_ID));
-        dataMap.getDataMap().putLong("Time", System.currentTimeMillis());
+        //dataMap.getDataMap().putLong("Time", System.currentTimeMillis());
         // send the data
         Wearable.DataApi.putDataItem(mGoogleApiClient, dataMap.asPutDataRequest()).await();
         // disconnect the client
